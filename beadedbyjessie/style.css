@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+	align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hero {
+    height: 96vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, #eb71e9, #eb7198);
+	color: white;
+	width: 98%;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	margin-right: 1%;
+	margin-left: 1%;
+	border-radius: 15px;
+	
+}
+
+.hero h1 {
+    font-size: 10vw;
+    color: #fff;
+}
+
+.hero depoxt-gradient {
+	background: linear-gradient(to right, #f32170, #ff6b08,#cf23cf, #eedd44);
+	-webkit-text-fill-color: transparent; 
+	-webkit-background-clip: text; 
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: #e0e0e0;
+}
+
+.cta {
+	color: black;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 3vh 6vw;
+	font-size: 4vw;
+    
+	background-color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.cta:hover {
+    transform: scale(1.1);
+}
+
+
+.products-section {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+    padding: 50px 0;
+    background-color: #;
+}
+
+.product {
+    text-align: left;
+    padding: 20px;
+	padding-bottom: 15px;
+    background-color: #2a2a2a;
+    border-radius: 10px;
+    max-width: 250px;
+    transition: transform 0.3s ease;
+	min-width: 26%
+}
+
+
+.product:hover {
+    transform: scale(1.01);
+}
+
+.product h3 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 7px;
+}
+
+.product p {
+	font-size: 1rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
+
+.use-product-button {
+	color: black;
+    display: inline-block;
+    padding: 10px 20px;
+	background-color: #fff;
+    border-radius: 5px;
+    font-weight: semi-bold;
+    transition: transform 0.3s ease;
+}
+
+.use-product-button:hover {
+	transform: scale(1.02)
+}
